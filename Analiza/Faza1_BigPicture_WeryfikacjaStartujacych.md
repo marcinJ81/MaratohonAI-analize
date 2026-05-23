@@ -53,7 +53,7 @@ A9: W dniu zawodów — tak, mogą być traktowani jako ta sama rola.
 - Zarejestrowano walk-in w biurze zawodów
 - Wydano pakiet startowy (zawierający tag RFID)
 - Zamknięto biuro zawodów *(sobota 13:00)*
-- Zgubiono tag RFID → przejęto kaucję → odięto numer startowy → przypisano nowy numer → wydano nowy tag
+- Zgubiono / uszkodzono tag RFID → zawodnik jedzie bez oficjalnego pomiaru czasu (tagi readonly, nieodtwarzalne — nowego tagu z tym samym numerem nie można wydać; numer startowy jest immutable)
 
 ### Start
 - Zawodnicy ustawili się na linii startu grupy
@@ -109,7 +109,7 @@ Walk-in (niezarejestrowany)
 
 - **H1:** Asymetria sobota/niedziela — biuro zamknięte sobotę 13:00, otwarte cały czas w niedzielę. Różne reguły dostępu dla tych samych typów uczestników.
 - **H2:** Walk-in w niedzielę do ostatniej chwili — wymaga zgody sędziego trasy. Decyzja ludzka poza systemem. Ryzyko: czy jest czas na weryfikację i wydanie tagu przed startem grupy?
-- **H3:** Zagubienie tagu RFID — procedura kaucji + wymiana numeru startowego. Niejasne: czy zawodnik zmienia numer czy zachowuje stary z nowym tagiem?
+- **H3:** Zagubienie tagu RFID — tagi readonly, nieodtwarzalne. Zawodnik jedzie bez oficjalnego wyniku. Numer startowy immutable — nie zmienia się nigdy. (Domknięty w Fazie 2.)
 - **H4:** Zawodnik odmawia podpisania oświadczenia — co dalej? Czy może wrócić? Czy slot w grupie zostaje zablokowany?
 - **H5:** Dyskwalifikacja na starcie — co dzieje się z miejscem w grupie po dyskwalifikacji?
 
